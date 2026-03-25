@@ -77,10 +77,8 @@ export default function LandingPage() {
       <nav className="fixed top-0 w-full z-50 bg-[#0A0A0B]/80 backdrop-blur-2xl border-b border-white/5" role="navigation" aria-label="Ana menü">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2.5" aria-label="Alertix Ana Sayfa">
-            <div className="w-8 h-8 bg-[#F04E23] rounded-lg flex items-center justify-center">
-              <Bell className="w-4 h-4 text-white" />
-            </div>
-            <span className="text-lg font-bold tracking-tight">alertix</span>
+            <img src="/icon.png" alt="Alertix" className="w-8 h-8 rounded-lg" />
+            <img src="/logo.png" alt="Alertix" className="h-6 hidden sm:block" />
           </a>
           <div className="flex items-center gap-6">
             <a href="#ozellikler" className="text-sm text-gray-400 hover:text-white transition hidden md:block">Özellikler</a>
@@ -361,10 +359,8 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2.5 mb-3">
-                <div className="w-8 h-8 bg-[#F04E23] rounded-lg flex items-center justify-center">
-                  <Bell className="w-4 h-4 text-white" />
-                </div>
-                <span className="text-lg font-bold tracking-tight">alertix</span>
+                <img src="/icon.png" alt="Alertix" className="w-8 h-8 rounded-lg" />
+                <img src="/logo.png" alt="Alertix" className="h-5" style={{ filter: "brightness(0) invert(1)" }} />
               </div>
               <p className="text-gray-500 text-sm max-w-sm leading-relaxed">
                 Kişiselleştirilmiş flaş indirim bildirimleri ile akıllı alışveriş platformu.
