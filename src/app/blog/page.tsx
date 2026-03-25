@@ -42,19 +42,6 @@ export default function BlogPage() {
 
   return (
     <div className="min-h-screen bg-[#0A0A0B] text-white">
-      {/* SEO meta via head */}
-      <head>
-        <title>İndirim Rehberi &amp; Alışveriş İpuçları | Alertix Blog</title>
-        <meta
-          name="description"
-          content="Ürün indirimleri, gerçek indirimler ve alışveriş rehberi hakkında en güncel bilgiler. Alertix Blog ile akıllı alışveriş yapın."
-        />
-        <meta
-          name="keywords"
-          content="ürün indirimleri, gerçek indirimler, alışveriş rehberi, indirim takip, fiyat karşılaştırma"
-        />
-      </head>
-
       {/* Navbar */}
       <nav className="fixed top-0 w-full z-50 bg-[#0A0A0B]/80 backdrop-blur-2xl border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">

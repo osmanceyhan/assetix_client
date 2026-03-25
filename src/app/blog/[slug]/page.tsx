@@ -68,12 +68,12 @@ export default function BlogPostPage() {
         />
       )}
 
-      {/* Dynamic head */}
+      {/* JSON-LD */}
       {blog && (
-        <head>
-          <title>{blog.title} | Alertix Blog</title>
-          <meta name="description" content={blog.excerpt || ""} />
-        </head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       )}
 
       {/* Navbar */}
